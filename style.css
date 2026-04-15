@@ -1,0 +1,83 @@
+/* RESET CSS SIMPLE */
+
+/* Supprime marges/paddings par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hauteur pleine */
+html,
+body {
+  height: 100%;
+}
+
+/* Police et rendu texte */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Images et médias responsives */
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+/* Inputs et boutons héritent de la police */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Supprime styles des listes */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Liens sans style par défaut */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Meilleure gestion du scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Styles personnalisés pour le projet */
+* {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+
+/* Style de base pour le header*/
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+/* Style de base pour les sections */
+section {
+    margin: 1rem
+}
